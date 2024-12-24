@@ -1,0 +1,34 @@
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: lightblue;
+}
+
+button:hover {
+    background-color: lightcyan;
+}
+
+#history {
+    margin-top: 20px;
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
